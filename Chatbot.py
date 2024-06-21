@@ -1,4 +1,4 @@
-from openai import OpenAI
+# from openai import OpenAI
 import json
 import streamlit as st
 from vertexai.generative_models import (
