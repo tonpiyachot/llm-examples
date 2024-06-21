@@ -358,7 +358,7 @@ with tab3:
 
         # response = client.chat.completions.create(model="gpt-3.5-turbo", messages=st.session_state.messages)
         
-        response = chat.send_message(prompt)
+        response = chat.send_message(messages=st.session_state.messages)
 
         msg = response.text
 
